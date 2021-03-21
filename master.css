@@ -1,0 +1,45 @@
+body{
+  background: #eeeeee;
+}
+
+h1{
+    color: green;
+    background: white;
+    border: 1px solid green;
+    text-align: center;
+}
+
+/*メニューバー*/
+ul{
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+  list-style-type: none;
+}
+
+li{
+  border-right: 1px solid white;
+  float: left;
+}
+
+li a {
+  display: block;
+  padding: 14px 16px;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+}
+
+.active{
+  background: orange;
+}
+
+.article{
+  background: white;
+}
+
+h2{
+  border-left: 3px solid blue;
+  font-weight: bold;
+}
